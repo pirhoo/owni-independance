@@ -1,0 +1,162 @@
+a img {
+    border:0px;
+}
+a {
+    color:#752e12;
+}
+a:visited, a:hover, a:focus {
+    color:#c94f1e;
+}
+
+body { background: url("./images/body.png"); padding:0px; margin:0px }
+
+#app {
+    width:800px;
+    height:600px;
+    overflow:hidden;
+    background: url("./images/bg.png") no-repeat 1px 1px;
+
+    margin:0px;
+    padding:0px;
+
+    margin-top:-301px;
+    margin-left:-400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+.togglers {
+    position:relative;
+    top:-8px;
+    left:-8px;
+}
+
+#popup {
+    width:800px;
+    height:0px;
+    display:none;
+    position:relative;
+    z-index:200;
+}
+
+#bg {
+    width:800px;
+    height:556px;
+    background: url("./images/bg-dark.png") no-repeat 1px 1px;
+}
+
+#popup-content {
+    font-size:12px;
+    color:#8e8e8e;
+    position:relative;
+    top:-405px;
+    margin-bottom:-405px;
+    margin:0px auto;
+    padding:20px;
+    width:581px;
+    height:260px;
+    background: url("./images/popup-content") no-repeat top left;
+}
+
+#popup-content small {
+    display:block;
+    min-height:45px;
+}
+
+#popup-content .fermer {
+    text-align:right;
+    text-transform: uppercase;
+    margin-top:-10px;
+    margin-bottom:10px;
+    cursor:pointer;
+    color:#8e8e8e;
+    font-size:12px;
+}
+
+#popup-content .brief {
+    float:right;
+    text-align:left;
+    width:280px;
+}
+
+#popup-content .coll h2 {
+    color:#8e8e8e;
+    font-size:14px;
+    margin:0px;
+    padding:0px;
+    padding-bottom:10px;
+}
+
+#popup-content .coll h2:first-letter {
+    text-transform: uppercase;
+}
+
+#popup-content .brief p {
+    padding:0px;
+    margin:0px;
+}
+ 
+#popup-content .photo{
+    width:280px;
+    height:210px;
+    background:#262626;
+    overflow:hidden;
+}
+
+#popup-content .photo img {
+    width:280px;
+}
+
+#popup-content .player {
+    display:table-cell;
+    vertical-align:middle;
+    height:40px;
+    width:545px;
+    cursor:pointer;
+    color:#8e8e8e;
+    font-size:12px;
+    padding-left:35px;
+    padding-top:5px;
+    font-style: italic;
+    background: url("./images/play.png") no-repeat left center;
+}
+
+#popup-content .player.pause {
+    background: url("./images/pause.png") no-repeat left center
+}
+
+#popup-content .description-objet {
+    display:none;
+}
+
+
+#ctrls {
+    position:relative;
+    top:555px;
+    background:#210d05;
+    height:35px;
+    padding:5px;
+    display:block;
+    width:790px;
+}
+
+.toggleObjet {
+    position:absolute;
+    top:10px;
+    z-index:100;
+    cursor:pointer;
+}
+
+.toggleObjet img {
+    visibility:hidden;
+}
+
+.sharing {
+    position:relative;
+    bottom:-7px;
+}
+
+.sharing .fb_share_count_nub_right {
+   display:none;
+}
